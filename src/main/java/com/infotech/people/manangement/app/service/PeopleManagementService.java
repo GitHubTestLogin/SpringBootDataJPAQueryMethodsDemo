@@ -14,8 +14,14 @@ public class PeopleManagementService {
 
 	@Autowired
 	private PeopleManangementDao peopleManangementDao;
+	
 
 	public List<Person> getPersonsInfoByLastName(String lastName) {
+		System.out.println("hello");
+		////
+		
+		//
+		
 		return peopleManangementDao.findByLastName(lastName);
 	}
 

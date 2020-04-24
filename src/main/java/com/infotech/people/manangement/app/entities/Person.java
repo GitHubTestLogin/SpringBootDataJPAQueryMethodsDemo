@@ -44,6 +44,8 @@ public class Person {
 	}
 
 	public int getId() {
+		String STR;
+		int i=0;
 		return id;
 	}
 

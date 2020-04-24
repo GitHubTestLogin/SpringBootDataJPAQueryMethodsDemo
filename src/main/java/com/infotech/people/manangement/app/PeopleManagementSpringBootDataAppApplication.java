@@ -13,12 +13,13 @@ import com.infotech.people.manangement.app.service.PeopleManagementService;
 @SpringBootApplication
 public class PeopleManagementSpringBootDataAppApplication implements CommandLineRunner{
 
-	int i;
+	
 	
 	@Autowired
 	private PeopleManagementService peopleManagementService;
 	
 	public static void main(String[] args) {
+	
 		SpringApplication.run(PeopleManagementSpringBootDataAppApplication.class, args);
 	}
 
