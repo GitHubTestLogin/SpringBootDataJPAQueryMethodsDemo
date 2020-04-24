@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.infotech.people.manangement.app.dao.PeopleManangementDao;
 import com.infotech.people.manangement.app.entities.Person;
 
+//this is peoples service management
 @Service
 public class PeopleManagementService {
 
