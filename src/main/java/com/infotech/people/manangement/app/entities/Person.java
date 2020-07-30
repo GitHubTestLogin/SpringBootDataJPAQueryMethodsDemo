@@ -11,6 +11,7 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.DynamicUpdate;
 
+//this is entity class
 @Entity
 @Table(name="person_table")
 @DynamicUpdate
