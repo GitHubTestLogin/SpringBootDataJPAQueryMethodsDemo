@@ -11,5 +11,6 @@ public interface PeopleManangementDao extends CrudRepository<Person, Integer>{
 	//public interface PeopleManangementDao extends Repository<Person, Integer>{
 	//added new comment to push the code
 	List<Person> findByLastName(String lastName);
+	List<Person> findByFirstName(String lastName);
 	List<Person> findByFirstNameAndEmail(String firstName,String email);
 }
