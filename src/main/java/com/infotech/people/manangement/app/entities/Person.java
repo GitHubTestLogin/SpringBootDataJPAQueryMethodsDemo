@@ -11,7 +11,7 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.DynamicUpdate;
 
-//this is entity class
+//this is entity class which connect to persistence storage
 @Entity
 @Table(name="person_table")
 @DynamicUpdate
