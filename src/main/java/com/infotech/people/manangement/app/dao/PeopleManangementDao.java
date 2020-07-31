@@ -7,7 +7,7 @@ import org.springframework.data.repository.Repository;
 
 import com.infotech.people.manangement.app.entities.Person;
 
-//this is dao class
+
 public interface PeopleManangementDao extends CrudRepository<Person, Integer>{
 	//public interface PeopleManangementDao extends Repository<Person, Integer>{
 	
