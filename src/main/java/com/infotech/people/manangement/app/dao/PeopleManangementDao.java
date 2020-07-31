@@ -10,6 +10,7 @@ import com.infotech.people.manangement.app.entities.Person;
 //this is dao class
 public interface PeopleManangementDao extends CrudRepository<Person, Integer>{
 	//public interface PeopleManangementDao extends Repository<Person, Integer>{
+	
 	List<Person> findByLastName(String lastName);
 	List<Person> findByFirstNameAndEmail(String firstName,String email);
 }
